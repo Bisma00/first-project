@@ -1,0 +1,31 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px;
+  background-color: #171822;
+}
+.logo {
+  font-size: 44px;
+  color: rgb(86, 199, 135);
+}
+.btn {
+  border-radius: 24px;
+  background-color: rgb(86, 199, 135);
+  color: rgb(8, 8, 8);
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: whitesmoke;
+}
+@media (max-width: 400px) {
+  .nav-bar {
+    padding: 18px;
+  }
+  .btn {
+    border-radius: 16px;
+    padding: 7px;
+  }
+}

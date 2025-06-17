@@ -1,0 +1,54 @@
+.insp-s1 {
+  color: whitesmoke;
+  font-weight: bold;
+}
+.insp-s2 {
+  color: #747987;
+  font-weight: bold;
+}
+.insp-span {
+  font-size: 48px;
+  display: flex;
+  gap: 4px;
+  padding: 14px 22px;
+}
+.insp-show-arrow {
+  display: flex;
+  justify-content: space-between;
+  color: #747987;
+  font-size: 22px;
+  padding: 12px 22px;
+}
+.seeAll {
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+.seeAll:hover {
+  color: rgb(86, 199, 135);
+}
+.insp-main {
+  width: 90%;
+  margin: 0 auto;
+}
+.insp-comp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+@media (max-width: 400px) {
+  .insp-span {
+    font-size: 22px;
+    gap: 0;
+    padding: 7px 12px;
+    flex-wrap: wrap;
+  }
+  .insp-show-arrow {
+    font-size: 18px;
+    padding: 7px 12px;
+  }
+  .insp-comp {
+    gap: 0;
+  }
+}

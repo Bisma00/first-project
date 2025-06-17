@@ -1,0 +1,32 @@
+.single-main {
+  width: 300px;
+  padding: 24px;
+}
+.single-card {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+}
+.single-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.single-card:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in;
+}
+.single-heading-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: grey;
+  flex-direction: column;
+  padding: 4px;
+}
+@media (max-width: 400px) {
+  .single-main {
+    padding: 12px;
+  }
+}

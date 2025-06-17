@@ -1,0 +1,72 @@
+.hero-p1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #747987;
+}
+.hero-heading {
+  font-weight: bold;
+  font-size: 77px;
+  text-align: center;
+  color: whitesmoke;
+}
+.hero-action {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.hero-action button {
+  border-radius: 32px;
+  padding: 10px 22px;
+  font-size: 20px;
+  border: none;
+}
+.hero-showcase {
+  background-color: #525261;
+  color: rgb(184, 181, 181);
+  cursor: pointer;
+}
+.hero-showcase:hover {
+  color: white;
+}
+.hero-details {
+  background-color: rgb(86, 199, 135);
+}
+.hero-details:hover {
+  background-color: white;
+}
+.hero-p2 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 400px) {
+  .hero-heading {
+    font-size: 42px;
+  }
+  .hero-action {
+    gap: 0;
+    justify-content: space-between;
+    padding: 16px 6px;
+  }
+  .hero-action button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .hero-p2 {
+    font-size: 22px;
+  }
+  .hero-p1 {
+    font-size: 18px;
+    padding-top: 12px;
+  }
+}

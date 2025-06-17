@@ -1,0 +1,92 @@
+.signUp-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.signUp-form {
+  padding: 16px;
+  border: 0.2px solid gray;
+  border-radius: 8px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 4px 10px rgb(184, 181, 181);
+}
+.signUp-box input,
+button {
+  padding: 10px;
+
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.signUp-box input {
+  outline: none;
+}
+.signUp-box button {
+  background-color: rgb(45, 142, 232);
+  border: none;
+  color: white;
+}
+.signUp-box button:hover {
+  background-color: rgb(77, 163, 243);
+}
+
+.signUp-box input:focus {
+  border-color: rgb(77, 163, 243);
+  outline: 1px solid black;
+  outline-offset: 4px;
+  border-radius: 18px;
+}
+
+#p-signUp {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 13px;
+}
+#p-or {
+  color: gray;
+  text-align: center;
+  padding: 13px;
+}
+span {
+  color: gray;
+}
+#s-login {
+  color: rgb(77, 163, 243);
+  cursor: pointer;
+}
+.signUp-google {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.signUp-google:hover {
+  background-color: #fefdfd;
+}
+.account-login {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding-top: 10px;
+}
+
+.bar {
+  height: 1px;
+  background-color: #ccc;
+  width: 100%;
+}
+
+.login_option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
