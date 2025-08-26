@@ -13,7 +13,7 @@ This is one of my practice projects where I explored **CSS styling** and learned
 - **React (basic components & JSX)**   
 
 ## Live Demo
-[Click here to view live project](https://vercel.com/bisma00s-projects)  
+[Click here to view live project](https://first-project-psi-seven.vercel.app/)  
 
 ## 📂 How to Run
 ```bash
