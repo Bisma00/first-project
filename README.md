@@ -5,7 +5,8 @@ This is one of my practice projects where I explored **CSS styling** and learned
 ## What I Learned
 - How to style pages using **basic CSS** (colors, spacing, fonts, image handling).  
 - How to **locate and organize React components** in a project.  
-- How HTML, CSS, and JS work together to build a functional page.  
+- How HTML, CSS, and JS work together to build a functional page.
+- How to make a **responsive website** that works on different screen sizes (mobile, tablet, desktop).  
 
 ## Tech Stack
 - **HTML5**  
