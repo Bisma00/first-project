@@ -16,7 +16,7 @@ This is one of my practice projects where I explored **CSS styling** and learned
 ## Live Demo
 [Click here to view live project](https://first-project-psi-seven.vercel.app/)  
 
-## 📂 How to Run
+## How to Run
 ```bash
 git clone https://github.com/Bisma00/first-project.git
 cd first-project
